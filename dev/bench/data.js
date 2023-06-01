@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685617127625,
+  "lastUpdate": 1685617182802,
   "repoUrl": "https://github.com/ClementWalter/benchmark-action-setup",
   "entries": {
     "Benchmark": [
@@ -109,6 +109,43 @@ window.BENCHMARK_DATA = {
             "unit": "Megabytes",
             "range": "5",
             "extra": "GitHub Actions 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "clement0walter@gmail.com",
+            "name": "Clément Walter",
+            "username": "ClementWalter"
+          },
+          "committer": {
+            "email": "clement0walter@gmail.com",
+            "name": "Clément Walter",
+            "username": "ClementWalter"
+          },
+          "distinct": true,
+          "id": "bdfba150556fff27340c0d4556977a183e91feb7",
+          "message": "Update runner list",
+          "timestamp": "2023-06-01T12:59:26+02:00",
+          "tree_id": "eda5dba253c672fe2f65716845d2cfed835897a8",
+          "url": "https://github.com/ClementWalter/benchmark-action-setup/commit/bdfba150556fff27340c0d4556977a183e91feb7"
+        },
+        "date": 1685617182034,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "CPU Load",
+            "value": 37,
+            "unit": "Percent",
+            "extra": "X64-Linux"
+          },
+          {
+            "name": "Memory Used",
+            "value": 493,
+            "unit": "Megabytes",
+            "range": "5",
+            "extra": "X64-Linux"
           }
         ]
       }
