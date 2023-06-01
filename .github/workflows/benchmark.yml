@@ -36,8 +36,7 @@ jobs:
           alert-threshold: "120%"
           github-token: ${{ secrets.GITHUB_TOKEN }}
           fail-on-alert: false
-          comment-on-alert: false # see https://github.com/benchmark-action/github-action-benchmark/issues/158
           summary-always: false # see https://github.com/benchmark-action/github-action-benchmark/issues/158
-          comment-always: true # see https://github.com/benchmark-action/github-action-benchmark/issues/158
+          comment-always: true
           auto-push: ${{ github.ref == 'refs/heads/main' }}
           save-data-file: ${{ github.ref == 'refs/heads/main' }}
