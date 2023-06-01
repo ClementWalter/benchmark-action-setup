@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685619931458,
+  "lastUpdate": 1685619942191,
   "repoUrl": "https://github.com/ClementWalter/benchmark-action-setup",
   "entries": {
     "Benchmark": [
@@ -479,6 +479,43 @@ window.BENCHMARK_DATA = {
             "unit": "Megabytes",
             "range": "3",
             "extra": "X64-Linux"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "clement0walter@gmail.com",
+            "name": "Clément Walter",
+            "username": "ClementWalter"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2a5e91811d8c707df16904239bf841d5c1d3eca0",
+          "message": "Merge pull request #1 from ClementWalter/try-pr\n\nTry PR",
+          "timestamp": "2023-06-01T13:45:18+02:00",
+          "tree_id": "5365d5039362ac545f3babf71527661f17fa927a",
+          "url": "https://github.com/ClementWalter/benchmark-action-setup/commit/2a5e91811d8c707df16904239bf841d5c1d3eca0"
+        },
+        "date": 1685619940653,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "CPU Load",
+            "value": 90,
+            "unit": "Percent",
+            "extra": "X64-macOS"
+          },
+          {
+            "name": "Memory Used",
+            "value": 214,
+            "unit": "Megabytes",
+            "range": "2",
+            "extra": "X64-macOS"
           }
         ]
       }
