@@ -16,7 +16,6 @@ function generate_random_json() {
     local memory_used_range=$(generate_random_number 1 10)
     local tooltip_value=$(generate_random_number 10 50)
     local optional_num=$(generate_random_number 1 200)
-    local extra_value="Value for Tooltip: $tooltip_value\nOptional Num #2: $optional_num\nAnything Else!"
 
     # Generate JSON object
     cat << EOF > random_data.json
@@ -24,18 +23,19 @@ function generate_random_json() {
     {
         "name": "CPU Load",
         "unit": "$cpu_load_unit",
-        "value": $cpu_load_value
+        "value": $cpu_load_value,
+        "extra": "$1"
     },
     {
         "name": "Memory Used",
         "unit": "$memory_used_unit",
         "value": $memory_used_value,
         "range": "$memory_used_range",
-        "extra": "$extra_value"
+        "extra": "$1"
     }
 ]
 EOF
 }
 
 # Call the function to generate random JSON
-generate_random_json
+generate_random_json "$1"

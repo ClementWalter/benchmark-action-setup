@@ -20,11 +20,11 @@ permissions:
 
 jobs:
   benchmark:
-    runs-on: ubuntu-latest
+    runs-on: [ubuntu-latest, linux, x64]
     steps:
       - uses: actions/checkout@v3
       - name: Run benchmark
-        run: bash ./generate_data.sh
+        run: bash ./generate_data.sh ${{ runner.name }}"
       - name: Compare result
         uses: benchmark-action/github-action-benchmark@v1
         with:
