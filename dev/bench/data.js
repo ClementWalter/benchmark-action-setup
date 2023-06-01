@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685618330159,
+  "lastUpdate": 1685619257645,
   "repoUrl": "https://github.com/ClementWalter/benchmark-action-setup",
   "entries": {
     "Benchmark": [
@@ -257,6 +257,43 @@ window.BENCHMARK_DATA = {
             "unit": "Megabytes",
             "range": "5",
             "extra": "X64-macOS"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "clement0walter@gmail.com",
+            "name": "Clément Walter",
+            "username": "ClementWalter"
+          },
+          "committer": {
+            "email": "clement0walter@gmail.com",
+            "name": "Clément Walter",
+            "username": "ClementWalter"
+          },
+          "distinct": true,
+          "id": "ae99da2d3cd886a273c772474c25e45680dad20c",
+          "message": "Try comment alwaysé",
+          "timestamp": "2023-06-01T13:34:02+02:00",
+          "tree_id": "fe513f914a3118a0724394fd8ebfc5fad20de880",
+          "url": "https://github.com/ClementWalter/benchmark-action-setup/commit/ae99da2d3cd886a273c772474c25e45680dad20c"
+        },
+        "date": 1685619257211,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "CPU Load",
+            "value": 11,
+            "unit": "Percent",
+            "extra": "X64-Linux"
+          },
+          {
+            "name": "Memory Used",
+            "value": 565,
+            "unit": "Megabytes",
+            "range": "7",
+            "extra": "X64-Linux"
           }
         ]
       }
