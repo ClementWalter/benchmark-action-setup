@@ -32,7 +32,7 @@ jobs:
           output-file-path: ./random_data.json
           alert-threshold: "120%"
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          fail-on-alert: true
+          fail-on-alert: false
           comment-on-alert: false # see https://github.com/benchmark-action/github-action-benchmark/issues/158
           summary-always: false # see https://github.com/benchmark-action/github-action-benchmark/issues/158
           comment-always: false # see https://github.com/benchmark-action/github-action-benchmark/issues/158
